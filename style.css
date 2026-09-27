@@ -50,3 +50,50 @@ main {
     background-color: white;
     color: blueviolet;
 }
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sottotitolo {
+    color: gray;
+    display: flex;
+    padding-left: 30px;
+}
+
+.due {
+    padding-right: 90px;
+}
+
+.tre {
+    padding-right: 145px;
+}
+
+.uno {
+    padding-right: 170px;
+}
+
+.ultimate {
+    padding: 10px 10px;
+}
+
+.updates {
+    padding: 10px 10px;
+}
+
+.features {
+    padding: 10px 10px;
+}
+
+.ultimo {
+    padding: 10px 10px;
+}
+
+.permissions {
+    padding: 10px 10px;
+}
+
+.infrastructure {
+    padding: 10px 10px;
+}
