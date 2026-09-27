@@ -15,9 +15,38 @@
 
 header {
     margin-bottom: 40px;
+    font-family: sans-serif;
 }
 
 .containerflex {
     display: flex;
     justify-content: space-around;
+}
+
+.tab {
+    width: 300px;
+    color: black;
+    border: solid 3px whitesmoke;
+    text-align: center;
+}
+
+.tab2 {
+    width: 300px;
+    color: white;
+    border: solid 3px gray;
+    text-align: center;
+}
+
+main {
+    font-family: sans-serif
+}
+
+.chooseplan {
+    background-color: blueviolet;
+    color: white;
+}
+
+.chooseplan2 {
+    background-color: white;
+    color: blueviolet;
 }
