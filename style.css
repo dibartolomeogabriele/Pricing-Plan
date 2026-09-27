@@ -5,6 +5,19 @@
     box-sizing: border-box;
 }
 
+.tab {
+    background-color: white;
+}
+
+.tab2 {
+    background-color: blueviolet;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
 .containerflex {
     display: flex;
+    justify-content: space-around;
 }
