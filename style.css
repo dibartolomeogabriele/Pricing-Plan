@@ -28,6 +28,8 @@ header {
     color: black;
     border: solid 3px whitesmoke;
     text-align: center;
+    margin: auto 20px auto 20px;
+    border-radius: 10px;
 }
 
 .tab2 {
@@ -35,6 +37,8 @@ header {
     color: white;
     border: solid 3px gray;
     text-align: center;
+    margin: auto 20px auto 20px;
+    border-radius: 10px;
 }
 
 main {
@@ -44,16 +48,21 @@ main {
 .chooseplan {
     background-color: blueviolet;
     color: white;
+    padding: 10px 10px;
+    margin: 10px 10px;
 }
 
 .chooseplan2 {
     background-color: white;
     color: blueviolet;
+    padding: 10px 10px;
+    margin: 10px 10px;
 }
 
 .price {
     font-size: 30px;
     font-weight: bold;
+    padding: 10px 10px;
 }
 
 .sottotitolo {
@@ -96,4 +105,12 @@ main {
 
 .infrastructure {
     padding: 10px 10px;
+}
+
+main {
+    max-width: 900px;
+}
+
+.perc {
+    background-color: darkgray;
 }
