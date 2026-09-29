@@ -5,25 +5,24 @@
     box-sizing: border-box;
 }
 
-.tab {
-    background-color: white;
-}
 
-.tab2 {
-    background-color: blueviolet;
-}
-
-header {
+.head {
     margin-bottom: 40px;
     font-family: sans-serif;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 32px;
 }
 
 .containerflex {
     display: flex;
     justify-content: space-around;
     font-family: sans-serif;
-    gap: 20px;
+    gap: 150px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -33,20 +32,29 @@ header {
     border: solid 3px whitesmoke;
     text-align: center;
     /* margin: auto 20px auto 20px; */
-    border-radius: 10px;
-    width: calc(100% / 3);
-    min-width: 250px;
+    border-radius: 24px;
+    width: calc(100% / 3 - 300px / 3);
+    min-width: 350px;
+    margin-left: 35px;
+    padding: 48px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-color: white;
 }
 
 .tab2 {
     /* width: 300px; */
     color: white;
-    border: solid 3px gray;
+    border: solid 3px whitesmoke;
     text-align: center;
     /* margin: auto 20px auto 20px; */
     border-radius: 10px;
-    width: calc(100% / 3);
-    min-width: 250px;
+    width: calc(100% / 3 - 90px / 3);
+    min-width: 350px;
+    background-color: blueviolet;
+    padding: 48px;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 .chooseplan {
