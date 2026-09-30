@@ -139,10 +139,6 @@ main {
 }
 
 .tastino {
-    font-size: 32px;
-}
-
-.tastino {
     gap: 8px;
     display: flex;
     align-items: center;
